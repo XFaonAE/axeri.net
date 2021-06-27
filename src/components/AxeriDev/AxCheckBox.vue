@@ -34,7 +34,7 @@
             display: flex;
             border-radius: 2px;
             background: transparent;
-            border: 2px solid @layer3;
+            border: 2px solid @layer4;
             transition-duration: @speed;
             pointer-events: none;
             align-items: center;
@@ -44,7 +44,7 @@
         
         &:hover {
             span {
-                border-color: @layer4;
+                border-color: @layer5;
             }
         }
         
